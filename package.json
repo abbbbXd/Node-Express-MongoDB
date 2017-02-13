@@ -6,10 +6,18 @@
   "dependencies": {
     "express": "^4.14.0",
     "express3-handlebars": "^0.5.2",
+    "expresss": "^0.0.0",
+    "grunt-cafe-mocha": "^0.1.13",
+    "grunt": "1.0.1",
+    "jade": "0.26.3",
     "mocha": "^3.2.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
+    "grunt": "^1.0.1",
+    "grunt-cafe-mocha": "^0.1.13",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-exec": "^1.0.1",
     "mocha": "^3.2.0"
   },
   "scripts": {

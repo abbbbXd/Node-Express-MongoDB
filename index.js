@@ -5,12 +5,12 @@ var app = express();
 var handlebars = require('express3-handlebars').create({defaultLayout:'main'});//默认布局
 
 //如果环境变量设置了PORT，就用环境变量的PORT，否则就是3000
-app.set('port',process.env.PORT || 3000)
+app.set('port',process.env.PORT || 3000);
 //创建视图引擎
 app.engine('handlebars',handlebars.engine);
 //设置为默认
 app.set('view engine','handlebars');
-app.use(express.static(__dirname + '/public'))
+app.use(express.static(__dirname + '/public'));
 
 //检测字符串test=1，用于测试
 app.use(function(req,res,next){
